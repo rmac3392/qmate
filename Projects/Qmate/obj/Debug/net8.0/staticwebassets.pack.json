@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/loginBg.jpg",
+      "PackagePath": "staticwebassets/loginBg.jpg"
+    },
+    {
+      "Id": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/logo.png",
+      "PackagePath": "staticwebassets/logo.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Qmate.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Qmate.props",
+      "PackagePath": "build\\Qmate.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Qmate.props",
+      "PackagePath": "buildMultiTargeting\\Qmate.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Qmate.props",
+      "PackagePath": "buildTransitive\\Qmate.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,204 @@
+﻿@page "/"
+@rendermode InteractiveServer
+
+<PageTitle>Qmate</PageTitle>
+        <div class="a">
+            <div class="form ">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <img src="logo.png" alt="logo">
+                    <br>
+                    <div class="element">
+                        <label for="email">Username</label>
+                        <br>
+                        <input type="text" id="email" placeholder="Username ">
+                        <br>
+                        <br>
+                        <label for="password">Password </label>
+                        <br>
+                        <input type="password" id="password" placeholder="**********">
+                        <br>
+                        <p></p>
+                        <br>
+                        <label for="user">User</label>
+                        <br>
+                        <select type="chooseuser" id="chooseuser" >
+                            <option value="cashier">Cashier</option>
+                            <option value="admin">Admin</option>
+                        </select>
+                        <br>
+                        <br>
+                        <br> 
+                        <br>
+                        <button>LOGIN</button>
+                        <p>Forgot Password? <span><a>CLICK HERE!</a></span></p>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+<style scoped>
+
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+    /* CSS for the "a" class */
+.a {
+  color: white; /* Equivalent to 'white' utility class */
+  display: flex; /* Equivalent to 'flex' utility class */
+  height: 100%; /* Equivalent to 'h-full' utility class */
+  justify-content: center; /* Equivalent to 'justify-center' utility class */
+  align-items: center; /* Equivalent to 'items-center' utility class */
+  width: 100%; /* Equivalent to 'w-full' utility class */
+  margin-left: 0; /* Equivalent to 'mx-0' utility class */
+  margin-right: 0; /* Equivalent to 'mx-0' utility class */
+}
+
+    /* CSS for the container class */
+.container {
+  display: flex; /* Equivalent to 'flex' utility class */
+  height: 100%; /* Equivalent to 'h-full' utility class */
+  justify-content: center; /* Equivalent to 'justify-center' utility class */
+  align-items: center; /* Equivalent to 'items-center' utility class */
+  width: 100%; /* Equivalent to 'w-full' utility class */
+  margin-left: 0; /* Equivalent to 'mx-0' utility class */
+  margin-right: 0; /* Equivalent to 'mx-0' utility class */
+  background-image: url("wwwroot/loginBg.jpg");
+  background-size: cover;
+}
+
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    margin: 1rem;
+    background-color: #ffffff; 
+    background: #FEFEFE;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    border-radius: 25px;
+    width: 1100px;
+    height: 730px;
+  }
+  
+  .left {
+    background: #0F172A;
+    border: 1px solid #0F172A;
+    border-radius: 25px;
+    background-image:url(../assets/images/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:-550px;
+  }
+  
+  .element {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  
+  input{
+    padding-left: 15px;
+  }
+
+  input,
+  select {
+    border-radius: 30px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #0F172A;
+    position: flex;
+    width: 291px;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  select {
+    text-align: center;
+  }
+  
+  label {
+    position: flex;
+    width: 172px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  
+  button {
+    border-radius: 30px;
+    box-sizing: border-box;
+    background-color: #0F172A;
+    color: #FEFEFE;
+    position: flex;
+    width: 291px;
+    height: 47px;
+    left: 779px;
+  
+  }
+  
+  span:hover {
+    color: blue;
+    text-decoration: underline;
+    font-size: small;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50);
+  }
+  
+  input:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50);
+  }
+  
+  select:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50);
+  }
+  
+  span {
+    text-decoration: underline;
+    font-size: small;
+  }
+
+  p {
+    font-size: small;
+    position: flex;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  label {
+    color: #0F172A;
+    position: flex;
+  }
+  
+  img {
+    margin-top: 5%;
+    width: 105.26px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .white {
+    display: flex;
+    background-color: #ffffff99;
+    height: 100%;
+  }
+  
+  
+  </style>
+
+@code {
+  
+}
