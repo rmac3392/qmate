@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\projects\\qmate\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\projects\\qmate\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\projects\\qmate\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\projects\\qmate\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\projects\\qmate\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\projects\\qmate\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_Imports.razor",
               "DocumentMoniker": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "Projects\\Qmate\\Components\\_Imports.razor",
@@ -67,7 +67,8 @@
               "RelativeToolTip": "Projects\\Qmate\\wwwroot\\app.css",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-02-24T05:43:24.759Z"
+              "WhenOpened": "2024-02-24T05:43:24.759Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,22 +78,23 @@
               "RelativeDocumentMoniker": "Projects\\Qmate\\Components\\Pages\\Counter.razor",
               "ToolTip": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\Pages\\Counter.razor",
               "RelativeToolTip": "Projects\\Qmate\\Components\\Pages\\Counter.razor",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAARAAAA",
+              "ViewState": "AQIAAPMAAAAAAAAAAAAawBEBAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-02-24T05:23:58.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\App.razor",
               "RelativeDocumentMoniker": "Projects\\Qmate\\Components\\App.razor",
               "ToolTip": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\App.razor",
               "RelativeToolTip": "Projects\\Qmate\\Components\\App.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-24T02:43:41.41Z"
+              "WhenOpened": "2024-02-24T02:43:41.41Z",
+              "EditorCaption": ""
             }
           ]
         }

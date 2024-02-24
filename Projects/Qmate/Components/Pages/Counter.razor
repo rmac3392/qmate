@@ -100,14 +100,349 @@
             </div>
         </div>
         <div class="billingPane ">
-            
+            <div class="upper">
+                <div class="userInfo">
+                    <div class="nameId">
+                        <p class="info">Name: <span id="userName">Ryan James Macawili</span></p>
+                        <p class="info">ID No: <span id="userId">20229464</span></p>
+                    </div>
+                    <div class="dateTime">
+                        <p class="info" id="date">2/25/2024</p>
+                        <p class="info" id="time"><span>10:12:00 AM</span></p>
+                    </div>
+                    <div class="image">
+                        <i class="fas fa-user-circle userIcon"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="editDetailsPane">
+                    <div class="title">
+                        <p class="ti">PERSONAL INFORMATION</p>
+                    </div>
+                    <div class="personal">
+
+                        <div class="fields">
+                            <div class="label">
+                                <label for="id" class="name">ID#</label>
+                            </div>
+                            <div class="feld">
+                                <input type="text" class="field1" id="id" v-model="idT" :disabled="!isEditMode">
+                            </div>
+                        </div>
+                        
+                        <div class="fields">
+                            <div class="label">
+                                <label for="fname" class="name">First Name</label>
+                             </div>
+                            <div class="feld">
+                                <input type="text" class="field2" id="fname" v-model="fnameT" :disabled="!isEditMode">
+                            </div> 
+                        </div>
+
+                        <div class="fields">
+                            <div class="label"> 
+                                <label for="mname" class="name">Middle Name</label>
+                            </div>
+                            <div class="feld">
+                                <input type="text" class="field3" id="mname" v-model="mnameT" :disabled="!isEditMode">
+                            </div>
+                        </div>
+                        
+                        <div class="fields">
+                            <div class="label">
+                                <label for="lname" class="name">Last Name</label>
+                            </div>
+                            <div class="feld">
+                                <input type="text" class="field4" id="lname" v-model="lnameT" :disabled="!isEditMode">
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="title">
+                        <p class="ti">EDUCATIONAL INFORMATION</p>
+                    </div>
+                    <div class="educational">
+                        <div class="fields">
+                            <div class="label">
+                                <label for="educ" class="name">Educ. Level</label>
+                            </div>
+                            <div class="feld">
+                                <input type="text" class="field5" id="educ" v-model="edlevelT" :disabled="!isEditMode">
+                            </div>
+                        </div>
+
+                        <div class="fields">
+                            <div class="label">
+                                <label for="level" class="name">Grade/Year</label>
+                            </div>
+                            <div class="feld">
+                                <input type="text" class="field6" id="level" v-model="gradeT" :disabled="!isEditMode">
+                            </div>
+                        </div>        
+                        
+                    </div>
+                    <div class="title">
+                        <p class="ti">PAYMENT INFORMATION</p>
+                    </div>
+                    <div class="payment">
+
+                        <div class="fields">
+                            <div class="label">
+                                <label for="tuition" class="name">Tuition Fees</label>
+                            </div>
+                            <div class="feld">
+                                <input type="text" class="field7" id="tuition" v-model="tintT" :disabled="!isEditMode">
+                            </div>
+                        </div>
+
+                        <div class="fields">
+                            <div class="label">
+                                <label for="misc" class="name">Miscellaneus</label>
+                            </div>
+                            <div class="feld">
+                                <input type="text" class="field8" id="tmisc" v-model="tmiscT" :disabled="!isEditMode">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button class="butLow" @click="editInfo()" :class="{ 'activeButton': isEditMode }">
+                        <i class="fas fa-edit"></i
+                        EDIT</button>
+                        <button class="butLow" @click="saveInfo()" :disabled="!isEditMode" :class="{ 'activeButton': !isEditMode }">
+                        <i class="fas fa-check"></i
+                        SAVE</button>
+                    </div>
+                </div>
+                <div class="tabs">
+                    <div class="tabUp">
+                    </div>
+                    <div class="tabDown">
+                        <div class="@((currentTab == 0) ? "tab-active" : "general-tab")" @onclick="() => ChangeTab(0)">Transaction</div>
+                        <div class="@((currentTab == 1) ? "tab-active" : "general-tab")" @onclick="() => ChangeTab(1)">Invoice</div>
+                        <div class="@((currentTab == 2) ? "tab-active" : "general-tab")" @onclick="() => ChangeTab(2)">History</div>
+                    </div>
+                    <div class="content">
+                        @if (currentTab == 0)
+                        {
+                            <div class="transactionContent">
+                                <table>
+                                    <tr>
+                                        <td class="lebel">ID No:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="lebel">First Name:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="lebel">Middle Name:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="lebel">Last Name:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="lebel">Educational Level:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="lebel">Grade/Year:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="lebel">Tuition Payment:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="lebel">Miscelleneus:</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="lebel">Total Amount:</td>
+                                        <td></td>
+                                    </tr>
+                                </table>
+                                <div class="but">
+                                   <button class="butLow" @click= "cancelTransaction" :class="{ 'activeButton': isEditMode }">
+                               <i class="fas fa-window-close"></i
+                                CANCEL</button>
+                                <button class="butLow" @click="doneTransaction();printPage1()" :class="{ 'activeButton': isEditMode }">
+                               <i class="fas fa-check"></i
+                                DONE</button>
+                                </div>
+                            </div>
+                        }
+
+                        else if (currentTab == 1)
+                        {
+                            <div class="invoiceContent">
+                                <div class="assesment">
+                                    <div class="head">
+                                        <div class="logo">
+                                            <img class="log" src="logo.png" alt="logo">
+                                        </div>
+                                        <div class="schoolName">
+                                            <div class="u">SAINT WILLIAM COOPERATIVE SCHOOL</div>
+                                            <div class="l">STUDENTS' ACCOUNTING SECTION</div>
+                                        </div>
+                                        <div class="slip">
+                                            <p class="asses">ASSESMENT SLIP</p>
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <div class="up">
+                                            <div class="uleft">
+                                                <p></p>
+                                                <p></p>
+                                            </div>
+                                            <div class="uright">
+                                                <p>2nd QUARTER SY 2022-2023</p>
+                                                <p>YEAR-12 ST. PIO</p>
+                                            </div>
+                                        </div>
+                                        <div class="ud">
+                                            <div class="subject">
+                                                <p class="t">SUBJECT</p>
+                                                <p>TECHNO32</p>
+                                                <p>AUTOLAN32</p>
+                                                <p>COMORG32</p>
+                                                <p>ELDROID32</p>
+                                                <p>FREIP</p>
+                                                <p>INFOSEC32</p>
+                                                <p>SOFTENG32</p>
+                                                <br>
+                                                <p>TOTAL UNITS</p>
+                                            </div>
+                                            <div class="unit">
+                                                <p class="tu">UNITS</p>
+                                                <p class="p">3.00</p>
+                                                <p class="p">3.00</p>
+                                                <p class="p">3.00</p>
+                                                <p class="p">3.00</p>
+                                                <p class="p">3.00</p>
+                                                <p class="p">3.00</p>
+                                                <p class="p">3.00</p>
+                                                <br>
+                                                <p class="p">21.0</p>
+                                            </div>
+                                            <div class="watermark">
+                                                <img class="logs" src="logo.png" alt="logo">
+                                            </div>
+                                            <div class="soa">
+                                                <p class="tu">STATEMENT OF THE ACCOUNT</p>
+                                                <div class="soaDetails">
+                                                    <div class="sl">OLD ACCOUNT</div>
+                                                    <div class="sr">9,499.50</div>
+                                                </div>
+                                                <hr>
+                                                <div>FEES:</div>
+                                                <div class="container">
+                                                    <div class="fChildren">
+                                                        <div class="fl">
+                                                            <p>TUITION</p>
+                                                            <p>LABARATORY</p>
+                                                            <p>REGISTRATION</p>
+                                                            <p>MISCELLANEUS</p>
+                                                        </div>
+                                                        <div class="fr">
+                                                            <p>23,280.00</p>
+                                                            <p>2,200.00</p>
+                                                            <p>752.00</p>
+                                                            <p>1,400.00</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="soaDetails">
+                                                    <div class="sl">TOTAL FEES</div>
+                                                    <div class="sr">27,632.00</div>
+                                                </div>
+                                                <hr>
+                                                <div class="soaDetails">
+                                                    <div class="sl">TOTAL DUES</div>
+                                                    <div class="sr">37,131.00</div>
+                                                </div>
+                                                <hr>
+                                                <div>LESS:</div>
+                                                <div class="container">
+                                                    <div class="fChildren">
+                                                        <div class="fl">
+                                                            <p>PAYMENT</p>
+                                                            <p>LABARATORY</p>
+                                                            <p>REGISTRATION</p>
+                                                            <p>MISCELLANEUS</p>
+                                                        </div>
+                                                        <div class="fr">
+                                                            <p>.00</p>
+                                                            <p>.00</p>
+                                                            <p>.00</p>
+                                                            <p>.00</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="soaDetails">
+                                                    <div class="sl">BALANCE</div>
+                                                    <div class="sr">37,131.00</div>
+                                                </div>
+                                                <hr>
+                                            </div>
+                                            <div class="payments">
+                                                <p class="tup">PAYMENT(S)</p>
+                                                <div class="paid">
+                                                    <p></p>
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="butter">
+                                    @* <button class="butLow"  @click="printPage">
+                                <PrinterIcon class="commandIcon"/>
+                                PRINT
+                                </button >*@
+                                </div>
+                            </div>
+                        }
+
+                        else
+                        {
+                            <div class="historyContent">
+                                <table class="hTable">
+                                    <th class="hTh">Date</th>
+                                    <th class="hTh">Time</th>
+                                    <th class="hTh">OR No.</th>
+                                    <th class="hTh">ID No.</th>
+                                    <th class="hTh">Name </th>
+                                    <th class="hTh">Amount</th>
+                                    <th class="hTh">Particulars</th>
+                                    <th class="hTh">Cashier</th>
+
+                                    <tr v-for="index in 16" :key="index" class="hTr">
+                                        <td class="hTd">das</td>
+                                        <td class="hTd">das</td>
+                                        <td class="hTd">csacs</td>
+                                        <td class="hTd">csasa</td>
+                                        <td class="hTd">csas</td>
+                                        <td class="hTd">cascsa</td>
+                                        <td class="hTd">cas</td>
+                                        <td class="hTd">cassa</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </div>
 
 
 <style scoped>
-    
+
     i{
         margin-right: 10px;
     }
@@ -186,11 +521,13 @@
     .fl {
         text-align: start;
         width: 50%;
+        line-height:5px;
     }
 
     .fr {
         text-align: end;
         width: 50%;
+        line-height: 5px;
     }
 
     .container {
@@ -286,7 +623,8 @@
 
     .up {
         display: flex;
-        margin-bottom: 8px;
+        margin-bottom: 3px;
+        line-height:3.5px;
     }
 
     .details {
@@ -294,6 +632,7 @@
         font-size: 10px;
         letter-spacing: 1.5px;
         font-weight: 700;
+        line-height:10px;
     }
 
     .asses {
@@ -449,9 +788,7 @@
         opacity: 0;
     }
 
-    .tabs {
-        padding: 15px;
-    }
+
 
     .search {
         margin-left: 380px;
@@ -522,132 +859,137 @@
     .title {
         font-weight: 700;
         font-size: 20px;
-        line-height: 30px;
+        padding-top:2px;
         color: #fefefe;
         padding-left: 18px;
-        margin-top: 5px;
+        margin-top: 15px;
+    }
+
+    .ti{
+        line-height: 9px;
+      
     }
 
     .personal {
         height: 156px;
+      
+            
     }
 
     .educational {
         height: 70px;
+     
     }
 
     .name {
-        margin-left: 45px;
         color: #fefefe;
         font-size: 18px;
+    }
+
+    .fields{
+        display:flex;
+        border-bottom:4px;
+        border-bottom-color:white;
+        padding-left: 22px;
+       margin-right:5px;
+    }
+
+    .feld{
+        display:flex;
+        width:67%;
+        
+    }
+
+    .label{
+       display:flex;
+       justify-content:start;
+       align-items:center;
+       width:33%;
+       height:30px;
+       margin: 6px;
+      
     }
 
     .field1 {
         width: 200px;
         height: 30px;
-        left: 587px;
-        top: 211px;
         background: #1E293B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         border-radius: 12px;
         margin: 5px;
-        margin-left: 102px;
+        
     }
 
     .field2 {
         width: 200px;
         height: 30px;
-        left: 587px;
-        top: 211px;
         background: #1E293B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         border-radius: 12px;
         margin: 5px;
-        margin-left: 44px;
     }
 
     .field3 {
         width: 200px;
         height: 30px;
-        left: 587px;
-        top: 211px;
         background: #1E293B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         border-radius: 12px;
         margin: 5px;
-        margin-left: 23px;
     }
 
     .field4 {
         width: 200px;
         height: 30px;
-        left: 587px;
-        top: 211px;
         background: #1E293B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         border-radius: 12px;
         margin: 5px;
-        margin-left: 47px;
     }
 
     .field5 {
         width: 200px;
         height: 30px;
-        left: 587px;
-        top: 211px;
         background: #1E293B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         border-radius: 12px;
         margin: 5px;
-        margin-left: 42px;
     }
 
     .field6 {
         width: 200px;
         height: 30px;
-        left: 587px;
-        top: 211px;
         background: #1E293B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         border-radius: 12px;
         margin: 5px;
-        margin-left: 41px;
     }
 
     .field7 {
         width: 200px;
         height: 30px;
-        left: 587px;
-        top: 211px;
         background: #1E293B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         border-radius: 12px;
         margin: 5px;
-        margin-left: 34px;
     }
 
     .field8 {
         width: 200px;
         height: 30px;
-        left: 587px;
-        top: 211px;
         background: #1E293B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         border-radius: 12px;
         margin: 5px;
-        margin-left: 30px;
     }
 
     .field9 {
         width: 200px;
         height: 30px;
-        left: 587px;
-        top: 211px;
         background: #1E293B;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
         border-radius: 12px;
         margin: 5px;
-        margin-left: 24px;
     }
 
     input:hover {
@@ -821,6 +1163,19 @@
 
     .image {
         height: 100%;
+        width: 10%;
+        color:white;
+    }
+
+    .userIcon{
+        font-size: 50px;
+        text-align:center;
+        margin-top:3px;
+        margin-left:44px;
+    }
+
+    .userIcon:hover{
+        color: grey;
     }
 
     .current {
@@ -833,7 +1188,6 @@
     }
 
     .dateTime {
-        background-color: blue;
         color: #ffffff;
         width: 15%;
         height: 100%;
@@ -841,7 +1195,6 @@
     }
 
     .user {
-        background-color: red;
         color: #ffffff;
         width: 85%;
         padding-left: 20px;
@@ -850,7 +1203,6 @@
     }
 
     .upper {
-        background-color: green;
         display: flex;
         margin-top: 10px;
         margin-left: 8px;
@@ -891,9 +1243,18 @@
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8);
     }
 
+    .nameId{
+        height:100%;
+        width:75%;
+        padding-left: 25px;
+    }
+
+    .info{
+        line-height:2px;
+    }
+
     .userInfo {
-        position: flex;
-        background-color: orange;
+        display: flex;
         width: 100%;
         height: 54px;
         background-color: #0F172A;
@@ -915,12 +1276,16 @@
     }
 
     .tabs {
+        position: flex;
         width: 60%;
         height: 100%;
         background-color: #0F172A;
         margin: 5px;
         border-radius: 10px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+        padding: 9px;
+        padding-left:15px;
+        padding-right: 15px;
     }
 
     .overlay {
