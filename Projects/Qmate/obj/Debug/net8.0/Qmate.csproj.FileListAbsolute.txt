@@ -24,3 +24,4 @@
 /home/baldwin-iv/Desktop/qmate/Projects/Qmate/obj/Debug/net8.0/Qmate.pdb
 /home/baldwin-iv/Desktop/qmate/Projects/Qmate/obj/Debug/net8.0/Qmate.genruntimeconfig.cache
 /home/baldwin-iv/Desktop/qmate/Projects/Qmate/obj/Debug/net8.0/ref/Qmate.dll
+/home/baldwin-iv/Desktop/qmate/Projects/Qmate/obj/Debug/net8.0/Qmate.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Qmate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47fbd1f87cb69b1ef48ede022f0e65f93853db03")]
 [assembly: System.Reflection.AssemblyProductAttribute("Qmate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Qmate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
