@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0+t+C+zwjcSYhgSHyXnigVwIkCmo0Nrq+cPZ6YWSZMY=",
+  "Hash": "OVoZ8F5hrkl2/lpKAnJNKZfkEUkaPgy7Ao2E52YMCUg=",
   "Source": "Qmate",
   "BasePath": "_content/Qmate",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "Qmate/wwwroot",
+      "Name": "Qmate\\wwwroot",
       "Source": "Qmate",
-      "ContentRoot": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/",
+      "ContentRoot": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\",
       "BasePath": "_content/Qmate",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/app.css",
+      "Identity": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\app.css",
       "SourceId": "Qmate",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/",
+      "ContentRoot": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\",
       "BasePath": "_content/Qmate",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/app.css"
+      "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Qmate",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/",
+      "ContentRoot": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\",
       "BasePath": "_content/Qmate",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Qmate",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/",
+      "ContentRoot": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\",
       "BasePath": "_content/Qmate",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/favicon.png",
+      "Identity": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\favicon.png",
       "SourceId": "Qmate",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/",
+      "ContentRoot": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\",
       "BasePath": "_content/Qmate",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -90,13 +90,32 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.png"
+      "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/loginBg.jpg",
+      "Identity": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\img4.jpg",
       "SourceId": "Qmate",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/",
+      "ContentRoot": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\",
+      "BasePath": "_content/Qmate",
+      "RelativePath": "img4.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img4.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\loginBg.jpg",
+      "SourceId": "Qmate",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\",
       "BasePath": "_content/Qmate",
       "RelativePath": "loginBg.jpg",
       "AssetKind": "All",
@@ -109,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/loginBg.jpg"
+      "OriginalItemSpec": "wwwroot\\loginBg.jpg"
     },
     {
-      "Identity": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/logo.png",
+      "Identity": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\logo.png",
       "SourceId": "Qmate",
       "SourceType": "Discovered",
-      "ContentRoot": "/home/baldwin-iv/Desktop/qmate/Projects/Qmate/wwwroot/",
+      "ContentRoot": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\",
       "BasePath": "_content/Qmate",
       "RelativePath": "logo.png",
       "AssetKind": "All",
@@ -128,7 +147,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/logo.png"
+      "OriginalItemSpec": "wwwroot\\logo.png"
     }
   ]
 }

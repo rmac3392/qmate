@@ -25,3 +25,30 @@
 /home/baldwin-iv/Desktop/qmate/Projects/Qmate/obj/Debug/net8.0/Qmate.genruntimeconfig.cache
 /home/baldwin-iv/Desktop/qmate/Projects/Qmate/obj/Debug/net8.0/ref/Qmate.dll
 /home/baldwin-iv/Desktop/qmate/Projects/Qmate/obj/Debug/net8.0/Qmate.sourcelink.json
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\bin\Debug\net8.0\appsettings.json
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\bin\Debug\net8.0\Qmate.staticwebassets.runtime.json
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\bin\Debug\net8.0\Qmate.exe
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\bin\Debug\net8.0\Qmate.deps.json
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\bin\Debug\net8.0\Qmate.runtimeconfig.json
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\bin\Debug\net8.0\Qmate.dll
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\bin\Debug\net8.0\Qmate.pdb
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\Qmate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\Qmate.AssemblyInfoInputs.cache
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\Qmate.AssemblyInfo.cs
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\Qmate.csproj.CoreCompileInputs.cache
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\Qmate.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\Qmate.sourcelink.json
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\staticwebassets\msbuild.Qmate.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\staticwebassets\msbuild.build.Qmate.props
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Qmate.props
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Qmate.props
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\scopedcss\bundle\Qmate.styles.css
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\Qmate.dll
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\refint\Qmate.dll
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\Qmate.pdb
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\Qmate.genruntimeconfig.cache
+C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\obj\Debug\net8.0\ref\Qmate.dll

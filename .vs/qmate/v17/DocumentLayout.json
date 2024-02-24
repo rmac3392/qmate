@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|c:\\users\\external os\\desktop\\qmate\\projects\\qmate\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\projects\\qmate\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\projects\\qmate\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\projects\\qmate\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\projects\\qmate\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2BE995C8-D560-4CCC-9267-41A14330263D}|Projects\\Qmate\\Qmate.csproj|solutionrelative:projects\\qmate\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "Projects\\Qmate\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "Projects\\Qmate\\Components\\Pages\\Login.razor",
+              "ViewState": "AQIAAIkAAAAAAAAAAAAIwJwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T03:11:40.936Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Projects\\Qmate\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\_Imports.razor",
+              "RelativeToolTip": "Projects\\Qmate\\Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T05:43:37.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "Projects\\Qmate\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\wwwroot\\app.css",
+              "RelativeToolTip": "Projects\\Qmate\\wwwroot\\app.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-02-24T05:43:24.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Projects\\Qmate\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "Projects\\Qmate\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T05:23:58.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Projects\\Qmate\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\EXTERNAL OS\\Desktop\\qmate\\Projects\\Qmate\\Components\\App.razor",
+              "RelativeToolTip": "Projects\\Qmate\\Components\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-24T02:43:41.41Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

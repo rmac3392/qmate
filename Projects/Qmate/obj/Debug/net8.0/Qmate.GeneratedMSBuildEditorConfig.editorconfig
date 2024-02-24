@@ -9,43 +9,43 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Qmate
 build_property.RootNamespace = Qmate
-build_property.ProjectDir = /home/baldwin-iv/Desktop/qmate/Projects/Qmate/
+build_property.ProjectDir = C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/baldwin-iv/Desktop/qmate/Projects/Qmate
+build_property.MSBuildProjectDirectory = C:\Users\EXTERNAL OS\Desktop\qmate\Projects\Qmate
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/baldwin-iv/Desktop/qmate/Projects/Qmate/Components/App.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+[C:/Users/EXTERNAL OS/Desktop/qmate/Projects/Qmate/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/baldwin-iv/Desktop/qmate/Projects/Qmate/Components/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+[C:/Users/EXTERNAL OS/Desktop/qmate/Projects/Qmate/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/baldwin-iv/Desktop/qmate/Projects/Qmate/Components/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Db3VudGVyLnJhem9y
+[C:/Users/EXTERNAL OS/Desktop/qmate/Projects/Qmate/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/baldwin-iv/Desktop/qmate/Projects/Qmate/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9FcnJvci5yYXpvcg==
+[C:/Users/EXTERNAL OS/Desktop/qmate/Projects/Qmate/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/baldwin-iv/Desktop/qmate/Projects/Qmate/Components/Pages/Login.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Mb2dpbi5yYXpvcg==
+[C:/Users/EXTERNAL OS/Desktop/qmate/Projects/Qmate/Components/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/baldwin-iv/Desktop/qmate/Projects/Qmate/Components/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWF0aGVyLnJhem9y
+[C:/Users/EXTERNAL OS/Desktop/qmate/Projects/Qmate/Components/Pages/Weather.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/baldwin-iv/Desktop/qmate/Projects/Qmate/Components/Routes.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+[C:/Users/EXTERNAL OS/Desktop/qmate/Projects/Qmate/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/baldwin-iv/Desktop/qmate/Projects/Qmate/Components/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+[C:/Users/EXTERNAL OS/Desktop/qmate/Projects/Qmate/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
